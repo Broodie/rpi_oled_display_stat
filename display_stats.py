@@ -41,7 +41,7 @@ draw.rectangle((0, 0, oled.width, oled.height), outline=255, fill=255)
 
 cmd = "whoami"
 user = str(subprocess.check_output(cmd, shell = True ), "utf-8").replace('\n','')
-font = ImageFont.truetype('/home/'+user+'/rpi_oled_display_stat/open_24_display_st.ttf', 16)
+font = ImageFont.truetype('/home/'+user+'/rpi_oled_display_stat/open_24_display_st.ttf', 15)
 #font = ImageFont.load_default()
 
 while True:
