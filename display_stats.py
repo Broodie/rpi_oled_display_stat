@@ -65,7 +65,7 @@ while True:
 
     # Pi Stats Display
     draw.text((0, 0), str(IP,'utf-8'), font=font, fill=255)
-    draw.text((100, 0), str(cur_time,'utf-8'), font=font, fill=255)
+    draw.text((97, 0), str(cur_time,'utf-8'), font=font, fill=255)
     draw.text((0, 16), str(CPU,'utf-8') + "%", font=font, fill=255)
     draw.text((60, 16), "TEMP: " + str(temp,'utf-8'), font=font, fill=255)
     draw.text((0, 32), str(MemUsage,'utf-8'), font=font, fill=255)
